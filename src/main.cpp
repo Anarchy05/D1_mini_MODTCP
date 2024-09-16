@@ -15,11 +15,11 @@ int inputPin3 = 13; // Adjust this to your actual input pin
 int inputPin4 = 15; // Adjust this to your actual input pin
 int OutputPin1 = 2; // LED Output
 
-const char* OTAuser = "vorster";
-const char* OTApass = "V0rst3r!**"; 
+const char* OTAuser = "admin";
+const char* OTApass = "admin123"; 
 
 
-ESPWifiConfig WifiConfig("VSSS", 80, Config_reset_btn, false, "fallback_wifi", "fallback_pass", debug);
+ESPWifiConfig WifiConfig("D1_Mini_AP", 80, Config_reset_btn, false, "fallback_wifi", "fallback_pass", debug);
 ModbusIP mb;
 ESP8266WebServer server(81);
 
